@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full ">
           <div className="flex justify-center lg:justify-start">
-            <p className="justify-center">{ABOUT_TEXT}</p>
+            <p className="text-justify">{ABOUT_TEXT}</p>
           </div>
         </div>
       </div>
