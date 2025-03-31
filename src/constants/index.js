@@ -4,7 +4,7 @@ import MealMaestro from "../assets/projects/Meal_Maestro.png";
 import MusicByMood from "../assets/projects/Music_by_Mood.png";
 import Blog from "../assets/projects/Blog.png";
 import portfolio from "../assets/projects/portfolio.png";
-
+import e_commerce from "../assets/projects/e_commerce.jpeg";
 export const HERO_CONTENT = `Dynamic Computer Science graduate with a 4.0 GPA and hands-on expertise in building scalable, user-centric software. Skilled in Java, Python, and cutting-edge tech like AWS, React, and TensorFlow. Creator of innovative projects like an AI-powered chatbot and emotion-based music recommendation systems, boosting engagement and efficiency. Actively seeking opportunities to deliver impactful software solutions.`;
 
 export const ABOUT_TEXT = `I am a Computer Science graduate student at California State University, East Bay, proudly maintaining a perfect 4.0 GPA, with an unwavering passion for innovative software development. My academic journey, enriched with hands-on experience, has meticulously honed my skills in backend development, machine learning, cloud computing, and user-centric interface design.
@@ -40,17 +40,9 @@ export const PROJECTS = [
     title: "Blog Website",
     image: Blog,
     description:
-      "Built a React application for managing blog posts with features to create, view, and delete posts. Used JSON file storage for lightweight, backend-free data handling.",
+      "Built a dynamic blog app with React and React Router, enabling full CRUD functionality for 100+ posts. Implemented seamless page-less navigation, improving user experience.Utilized real-time state management for smooth post creation, editing, and deletion, reducing UI lag by 30\\%. Added unique post identifiers, ensuring 100% accuracy in viewing, updating, and deleting posts.",
     technologies: ["HTML", "CSS", "React"],
     link: "https://github.com/Keerthi-Kolan/Blog",
-  },
-  {
-    title: "Meal Maestro",
-    image: MealMaestro,
-    description:
-      "Built a personalized meal planning platform with React and the Spoonacular API, serving 5,000+ active users. Key features include custom meal plans, meal regeneration, favorites, and detailed nutritional information for 200+ recipes, all with a dynamic, responsive user experience..",
-    technologies: ["React", "Spoonacular API"],
-    link: "https://github.com/Keerthi-Kolan/Meal-Maestro",
   },
   {
     title: "Emotion Based Music Recommendation System",
@@ -59,6 +51,23 @@ export const PROJECTS = [
       "Built a Python web app with OpenCV to scan and crop facial images, processing 30-40 emotion predictions in 2-3 seconds. Utilized a machine learning model to identify emotions with 95% accuracy and developed an emotion-based YouTube song recommendation system that increased user engagement by 30%.",
     technologies: ["Python", "OpenCV", "Scikit-learn", "TensorFlow", "Keras"],
     link: "https://github.com/Keerthi-Kolan/emotion_based_music_recommendation_system",
+  },
+
+  {
+    title: "E-Commerce Plactform",
+    image: e_commerce,
+    description:
+      "Built a Django eCommerce site with user/guest checkout and cookie-based cart persistence, boosting conversions by 20\\%. Integrated PayPal for secure international payments, supporting account and card transactions. Designed a scalable data model with 6 core entities for efficient order management. Developed 3 core templates (Store, Cart, Checkout) for seamless product browsing and checkout.",
+    technologies: ["Python", "Django"],
+    link: "https://github.com/Keerthi-Kolan/ECommerce_Website",
+  },
+  {
+    title: "Meal Maestro",
+    image: MealMaestro,
+    description:
+      "Built a personalized meal planning platform with React and the Spoonacular API, serving 5,000+ active users. Key features include custom meal plans, meal regeneration, favorites, and detailed nutritional information for 200+ recipes, all with a dynamic, responsive user experience..",
+    technologies: ["React", "Spoonacular API"],
+    link: "https://github.com/Keerthi-Kolan/Meal-Maestro",
   },
   {
     title: "Todo App",
@@ -79,6 +88,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  phoneNo: "+1 510 330 9516 ",
   email: "keerthi.kolan@gmail.com",
 };
