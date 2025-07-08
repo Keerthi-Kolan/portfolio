@@ -2,20 +2,36 @@ import AI_CHATBOT from "../assets/projects/AI_CHATBOT.png";
 import todoApp from "../assets/projects/TodoApp.png";
 import MealMaestro from "../assets/projects/Meal_Maestro.png";
 import MusicByMood from "../assets/projects/Music_by_Mood.png";
+import MaliciousURLDetection from "../assets/projects/MaliciousURLDetection.png";
 import Blog from "../assets/projects/Blog.png";
 import portfolio from "../assets/projects/portfolio.png";
 import e_commerce from "../assets/projects/e_commerce.jpeg";
-export const HERO_CONTENT = `Dynamic Computer Science graduate with a 4.0 GPA and hands-on expertise in building scalable, user-centric software. Skilled in Java, Python, and cutting-edge tech like AWS, React, and TensorFlow. Creator of innovative projects like an AI-powered chatbot and emotion-based music recommendation systems, boosting engagement and efficiency. Actively seeking opportunities to deliver impactful software solutions.`;
+import Transcriber from "../assets/projects/Transcriber.png";
+export const HERO_CONTENT = `I\’m a curious and driven Full-Stack Developer with a passion for building software that solves real problems. With a strong foundation in computer science and hands-on experience across the stack, I enjoy diving into complex challenges whether it's designing scalable backend systems, crafting responsive user interfaces, or deploying secure cloud applications. I thrive in fast-paced, collaborative environments where I can keep learning, contribute meaningfully, and turn ideas into impactful solutions.
 
-export const ABOUT_TEXT = `From the beginning of my academic journey, I have been driven by a deep curiosity about how systems work and how they can be improved. This curiosity naturally evolved into a passion for software engineering, where I found excitement in designing, building, and refining solutions that solve real-world challenges.
+`;
 
-\nDuring my Bachelor's in Computer Science, I interned at Chronodat LLC, where I worked on a Human Resource Management platform supporting over 50 enterprise clients. I contributed across the full stack, developing RESTful APIs with Java Spring, building responsive user interfaces with React, and participating in backend and cloud optimization. One of my most impactful contributions was developing a licensing microservice that maintained 100 percent uptime while handling more than 10,000 daily validations. I also set up CI/CD pipelines using GitHub Actions and Terraform, improving deployment speed and consistency.
+export const ABOUT_TEXT = `• Full-Stack Developer with a strong foundation in system design, scalable microservices, and cloud-native architecture
 
-\nThat hands-on experience inspired me to further my education with a Master’s in Computer Science, where I explored topics like distributed systems, machine learning, and cloud-native development. Outside the classroom, I pursued projects that allowed me to solve challenging technical problems, such as building a serverless transcription tool with AWS Lambda, S3, and Cognito, developing an AI chatbot using the MERN stack and OpenAI API, and designing a scalable e-commerce platform with Django and PostgreSQL.
+\n• Experienced in building end-to-end web applications using React, Node.js, Spring Boot, and Django
 
-\nI thrive in environments that challenge me to think critically and solve problems creatively. Whether I am building secure backend services or crafting intuitive frontend experiences, I am committed to writing clean, maintainable code and delivering meaningful results.
+\n• Proficient in frontend development with React, JavaScript, and TypeScript, focused on responsive and user-centric design
 
-\nI am currently seeking a full-time opportunity as a Software Development Engineer where I can continue learning, contribute to innovative teams, and bring my passion for problem-solving into every line of code.`;
+\n• Skilled in backend engineering using Java, Python, and Express.js, with experience designing RESTful APIs and integrating complex services
+
+\n• Hands-on experience with AWS (Lambda, S3, Cognito, DynamoDB), Docker, and CI/CD pipelines for cloud deployment and automation
+
+\n• Built a high-uptime licensing microservice at Chronodat LLC, processing over 10,000 validations daily and supporting 50+ enterprise clients
+
+\n• Developed full-stack projects including an AI chatbot (MERN + OpenAI), a serverless transcription platform, and a scalable e-commerce site
+
+\n• Strong grasp of database design and optimization, with experience in MongoDB, PostgreSQL, and MySQL
+
+\n• Passionate about writing clean, maintainable code and solving real-world problems across the stack
+
+\n• Seeking full-time opportunities as a Full-Stack Developer to contribute to impactful products and grow within a collaborative engineering team
+
+`;
 
 export const EXPERIENCES = [
   {
@@ -28,6 +44,41 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Audio & Video Transcriber",
+    image: Transcriber,
+    description:
+      "Built a serverless transcription platform that processed over 200 audio and video files using AWS Transcribe for speech-to-text conversion. Implemented secure file uploads to Amazon S3 via AWS Amplify Storage, ensuring complete data isolation and preventing cross-user access. The backend was powered by AWS Lambda and API Gateway, resulting in over 40% cost savings and uptime exceeding 99.9%. Transcription for 1-minute clips completed in under 12 seconds, offering fast and efficient turnaround. The React-based frontend included live upload progress, media playback, and cleanly formatted transcript rendering for enhanced user experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "AWS Transcribe",
+      "AWS Lambda",
+      "API Gateway",
+      "Amazon S3",
+      "Amplify",
+      "AWS IAM",
+      "HTML",
+      "CSS",
+    ],
+    link: "https://github.com/Keerthi-Kolan/Transcriber",
+  },
+  {
+    title: "Malicious URL Detector",
+    image: MaliciousURLDetection,
+    description:
+      "Built a URL classification system using a dataset of 651,191 URLs categorized into Benign, Phishing, Malware, and Defacement. Engineered 12 lexical and metadata-based features, including URL length, entropy, symbol frequency, and a novel WHOIS-based domain expiration metric to evaluate domain legitimacy. Implemented a Random Forest classifier from scratch in Python and designed a real-time feature extraction pipeline suitable for browser and email security applications. Achieved 88.21% accuracy with precision and recall above 83%.",
+    technologies: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "WHOIS",
+      "Jupyter Notebook",
+    ],
+    link: "https://github.com/Keerthi-Kolan/Malicious-URL-Detection",
+  },
   {
     title: "AI CHATBOT (Chat-GPT Clone)",
     image: AI_CHATBOT,
