@@ -18,9 +18,16 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400 text-justify">
-                {experience.description}
-              </p>
+
+              <ul className="mb-4 text-neutral-400 text-justify list-disc pl-5">
+                {experience.description
+                  .split("\n")
+                  .filter((line) => line.trim() !== "") // <- This removes empty lines
+                  .map((line, idx) => (
+                    <li key={idx}>{line}</li>
+                  ))}
+              </ul>
+
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}

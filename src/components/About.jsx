@@ -8,9 +8,13 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full ">
           <div className="flex justify-center lg:justify-start">
-            <li className="text-justify">
-              <ul>{ABOUT_TEXT}</ul>
-            </li>
+            <ul className="text-justify list-disc pl-5">
+              {ABOUT_TEXT.split("\n")
+                .filter((line) => line.trim() !== "")
+                .map((line, idx) => (
+                  <li key={idx}>{line}</li>
+                ))}
+            </ul>
           </div>
         </div>
       </div>

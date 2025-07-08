@@ -20,7 +20,13 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-400">
+                <ul className="text-justify list-disc pl-5">
+                  {project.description.split(". ").map((line, idx) => (
+                    <li key={idx}>{line}</li>
+                  ))}
+                </ul>
+              </p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
