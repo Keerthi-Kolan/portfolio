@@ -163,6 +163,14 @@ const Technologies = () => {
             name: "IAM",
             icon: <FaAws className="text-5xl text-[#ff9900]" />,
           },
+          {
+            name: "AWS Amplify",
+            icon: <FaAws className="text-5xl text-[#ff9900]" />,
+          },
+          {
+            name: "Amazon Cognito",
+            icon: <FaAws className="text-5xl text-[#ff9900]" />,
+          },
         ]}
       />
 
