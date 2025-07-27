@@ -35,6 +35,13 @@ export const ABOUT_TEXT = `Full-Stack Developer with a strong foundation in syst
 
 export const EXPERIENCES = [
   {
+    year: "July 2025 - Present",
+    role: "Machine Learning Research Intern",
+    company: "RooGenAI",
+    description: ``,
+    technologies: ["Python, Miniconda, Neural Networks"],
+  },
+  {
     year: "May 2022 - August 2022",
     role: "Application Developer Intern",
     company: "Chronodat",
