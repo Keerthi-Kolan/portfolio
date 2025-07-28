@@ -39,7 +39,7 @@ export const EXPERIENCES = [
     role: "Machine Learning Research Intern",
     company: "RooGenAI",
     description: ``,
-    technologies: ["Python, Miniconda, Neural Networks"],
+    technologies: ["Python", "Miniconda", "Neural Networks"],
   },
   {
     year: "May 2022 - August 2022",
