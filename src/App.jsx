@@ -22,7 +22,11 @@ const App = () => {
 
   return (
     <main className="relative min-h-screen text-neutral-300 bg-black">
+      {/*This is the radial Background behind the common black Background*/}
       {/* Background */}
+      <div className="fixed inset-0 -z-10">
+        <div className="absolute inset-0 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] z-[-1]"></div>
+      </div>
 
       {/* Sticky Navbar */}
       <Navbar

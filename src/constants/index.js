@@ -7,9 +7,7 @@ import Blog from "../assets/projects/Blog.png";
 import portfolio from "../assets/projects/portfolio.png";
 import e_commerce from "../assets/projects/e_commerce.jpeg";
 import Transcriber from "../assets/projects/Transcriber.png";
-export const HERO_CONTENT = `I\’m a curious and driven Full-Stack Developer with a passion for building software that solves real problems. With a strong foundation in computer science and hands-on experience across the stack, I enjoy diving into complex challenges whether it's designing scalable backend systems, crafting responsive user interfaces, or deploying secure cloud applications. I thrive in fast-paced, collaborative environments where I can keep learning, contribute meaningfully, and turn ideas into impactful solutions.
-
-`;
+export const HERO_CONTENT = `I'm a detail-oriented and impact-driven Full-Stack Developer and Machine Learning Engineer with a solid foundation in computer science and a track record of building scalable, user-focused systems. Whether it's architecting robust backend services, designing intelligent user interfaces, or integrating cloud-native AI solutions, I bring a problem-solving mindset to every project. I thrive at the intersection of software engineering and applied machine learning, turning technical ideas into real-world, production-ready solutions.`;
 
 export const ABOUT_TEXT = `Full-Stack Developer with a strong foundation in system design, scalable microservices, and cloud-native architecture
 
