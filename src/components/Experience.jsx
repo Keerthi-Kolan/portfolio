@@ -13,10 +13,16 @@ const Experience = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">
-                {experience.role}-{" "}
-                <span className="text-sm text-purple-100">
-                  {experience.company}
-                </span>
+                <a
+                  href={experience.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-sm text-purple-100">
+                    {" "}
+                    {experience.role}- {experience.company}
+                  </span>
+                </a>
               </h6>
 
               <ul className="mb-4 text-neutral-400 text-justify list-disc pl-5">

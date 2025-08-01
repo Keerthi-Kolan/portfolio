@@ -36,6 +36,7 @@ export const EXPERIENCES = [
     year: "July 2025 - Present",
     role: "Machine Learning Research Intern",
     company: "RooGenAI",
+    link: "https://roogen.ai/",
     description: `Cut model deployment time by 40% by implementing automated CI/CD pipelines with GitHub Actions, accelerating delivery of production-ready AI features.\nImproved model accuracy by 15% (test loss: 0.00122) via novel neural network architectures for trigonometric modeling, enhancing real-world reliability.\nReduced experimental setup time by 30% by streamlining ML workflows with Python (NumPy, Pandas) and Conda, ensuring reproducible development`,
     technologies: ["Python", "Miniconda", "Neural Networks"],
   },
@@ -43,6 +44,7 @@ export const EXPERIENCES = [
     year: "May 2022 - August 2022",
     role: "Application Developer Intern",
     company: "Chronodat",
+    link: "https://www.chronodat.com/",
     description: `Contributed to the development of an enterprise-grade Human Resource Management platform serving over 50 clients.\n
 Designed and implemented RESTful APIs using Java Spring, built responsive and modular user interfaces with React and JavaScript, and participated in backend optimization and cloud infrastructure efforts.\n
 Engineered a licensing microservice that maintained 100 percent uptime while processing more than 10,000 validations daily, supporting enterprise compliance at scale.\n
