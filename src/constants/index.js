@@ -36,7 +36,7 @@ export const EXPERIENCES = [
     year: "July 2025 - Present",
     role: "Machine Learning Research Intern",
     company: "RooGenAI",
-    description: ``,
+    description: `Cut model deployment time by 40% by implementing automated CI/CD pipelines with GitHub Actions, accelerating delivery of production-ready AI features.\nImproved model accuracy by 15% (test loss: 0.00122) via novel neural network architectures for trigonometric modeling, enhancing real-world reliability.\nReduced experimental setup time by 30% by streamlining ML workflows with Python (NumPy, Pandas) and Conda, ensuring reproducible development`,
     technologies: ["Python", "Miniconda", "Neural Networks"],
   },
   {
@@ -55,7 +55,8 @@ Gained hands-on experience in full-stack development, cloud-native architecture,
 
 export const PROJECTS = [
   {
-    title: "Audio & Video Transcriber",
+    title:
+      "Scalable Media Transcription System With Serverless Cloud Architecture",
     image: Transcriber,
     description:
       "Built a serverless transcription platform that processed over 200 audio and video files using AWS Transcribe for speech-to-text conversion. Implemented secure file uploads to Amazon S3 via AWS Amplify Storage, ensuring complete data isolation and preventing cross-user access. The backend was powered by AWS Lambda and API Gateway, resulting in over 40% cost savings and uptime exceeding 99%. Transcription for 1-minute clips completed in under 12 seconds, offering fast and efficient turnaround. The React-based frontend included live upload progress, media playback, and cleanly formatted transcript rendering for enhanced user experience",
@@ -74,7 +75,7 @@ export const PROJECTS = [
     link: "https://github.com/Keerthi-Kolan/Transcriber",
   },
   {
-    title: "Malicious URL Detector",
+    title: "Statistical Ensemble-Based Threat Classification on Web URLs",
     image: MaliciousURLDetection,
     description:
       "Built a URL classification system using a dataset of 651,191 URLs categorized into Benign, Phishing, Malware, and Defacement. Engineered 12 lexical and metadata-based features, including URL length, entropy, symbol frequency, and a novel WHOIS-based domain expiration metric to evaluate domain legitimacy. Implemented a Random Forest classifier from scratch in Python and designed a real-time feature extraction pipeline suitable for browser and email security applications. Achieved 88.21% accuracy with precision and recall above 83%",
@@ -90,7 +91,7 @@ export const PROJECTS = [
     link: "https://github.com/Keerthi-Kolan/Malicious-URL-Detection",
   },
   {
-    title: "AI CHATBOT (Chat-GPT Clone)",
+    title: "Context-Aware Chatbot With Secure Full-Stack Pipeline",
     image: AI_CHATBOT,
     description:
       "Developed a scalable AI chatbot using the MERN stack and TypeScript, supporting 10,000+ users with 99.9% uptime and 90%+ response accuracy. Integrated ChatGPT API, implemented chat history persistence, and ensured secure access with advanced authentication for an optimized, personalized user experience",
@@ -98,7 +99,7 @@ export const PROJECTS = [
     link: "https://github.com/Keerthi-Kolan/AI-CHATBOT",
   },
   {
-    title: "Blog Website",
+    title: "Interactive Blog Platform With Full CRUD and Client-Side Routing",
     image: Blog,
     description:
       "Built a dynamic blog app with React and React Router, enabling full CRUD functionality for 100+ posts. Implemented seamless page-less navigation, improving user experience.Utilized real-time state management for smooth post creation, editing, and deletion, reducing UI lag by 30\\%. Added unique post identifiers, ensuring 100% accuracy in viewing, updating, and deleting posts",
@@ -106,7 +107,8 @@ export const PROJECTS = [
     link: "https://github.com/Keerthi-Kolan/Blog",
   },
   {
-    title: "Emotion Based Music Recommendation System",
+    title:
+      "Real-Time Emotion-Based Music Recommendation System Using Facial Analysis",
     image: MusicByMood,
     description:
       "Built a Python web app with OpenCV to scan and crop facial images, processing 30-40 emotion predictions in 2-3 seconds. Utilized a machine learning model to identify emotions with 95% accuracy and developed an emotion-based YouTube song recommendation system that increased user engagement by 30%",
@@ -115,7 +117,7 @@ export const PROJECTS = [
   },
 
   {
-    title: "E-Commerce Plactform",
+    title: "Scalable E-Commerce System With Optimized Backend",
     image: e_commerce,
     description:
       "Built a Django eCommerce site with user/guest checkout and cookie-based cart persistence, boosting conversions by 20\\%. Integrated PayPal for secure international payments, supporting account and card transactions. Designed a scalable data model with 6 core entities for efficient order management. Developed 3 core templates (Store, Cart, Checkout) for seamless product browsing and checkout",
