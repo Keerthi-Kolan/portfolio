@@ -41,8 +41,8 @@ export const EXPERIENCES = [
     technologies: ["Python", "Miniconda", "Neural Networks"],
   },
   {
-    year: "May 2022 - June 2023",
-    role: "Software Engineer",
+    year: "May 2022 - August 2022",
+    role: "Application Developer Intern",
     company: "Chronodat",
     link: "https://www.chronodat.com/",
     description: `Contributed to the development of an enterprise-grade Human Resource Management platform serving over 50 clients.\n
