@@ -37,30 +37,25 @@ export const EXPERIENCES = [
     role: "Machine Learning Research Intern",
     company: "RooGenAI",
     link: "https://roogen.ai/",
-    description: `Devised a licensing microservice using C# and Azure Functions, scaling from prototype to production to support 10K+
-daily license validations.\nRevamped payroll and onboarding workflows with C#, Azure Functions, Power Automate, and Blob Storage, automating reconciliation of HR files, automated alerts and reducing manual effort by 15+ hours weekly across 50+ client
-organizations serving 20K+ employees.\nStandardized 20+ React/TypeScript components, eliminating UI inconsistencies and reducing feature development time by
-25%.\nMigrated applications to Azure using App Service, Functions, SQL Database, Blob Storage, Key Vault, and Service
-Bus, improving resource efficiency and reducing cloud expenses by over 20%.\nOrchestrated CI/CD pipelines in Azure DevOps using C#, Docker, and Terraform, accelerating release cycles from 2 weeks to 3 days.`,
-    technologies: ["Python", "Miniconda", "Neural Networks"],
+    description: `Pioneered the first hybrid neural network capable of running on a novel ultra-low-power AI accelerator, reaching 95% accuracy on image classification to validate the hardware’s viability for ML workloads.\nDeveloped a custom ML runtime in Python/NumPy, implementing core algorithms (e.g., Conv2D, backpropagation) from scratch to enable validation of 50+ model architectures incompatible with PyTorch/TensorFlow.\n Optimized model performance by 40% through a large-scale hyperparameter search across 500+ configurations using Bayesian Optimization and Grid Search, establishing the first performance benchmarks for the chip`,
+    technologies: ["Python", "Neural Networks", "CNN", "Numpy", "Pandas"],
   },
   {
     year: "July 2021 - July 2023",
     role: "Software Engineer",
     company: "Chronodat",
     link: "https://www.chronodat.com/",
-    description: `
-`,
-    technologies: ["JavaScript", "Java Spring Framework", "AWS"],
+    description: `Devised a licensing microservice using C# and Azure Functions, scaling from prototype to production to support 10K+ daily license validations.\nRevamped payroll and onboarding workflows with C#, Azure Functions, Power Automate, and Blob Storage, automating reconciliation of HR files, automated alerts and reducing manual effort by 15+ hours weekly across 50+ client organizations serving 20K+ employees.\nStandardized 20+ React/TypeScript components, eliminating UI inconsistencies and reducing feature development time by 25%.\nMigrated applications to Azure using App Service, Functions, SQL Database, Blob Storage, Key Vault, and Service Bus, improving resource efficiency and reducing cloud expenses by over 20%.\nOrchestrated CI/CD pipelines in Azure DevOps using C#, Docker, and Terraform, accelerating release cycles from 2 weeks to 3 days.`,
+    technologies: ["C#", "Azure", "Docker", "Terraform", "CI/CD"],
   },
   {
-    year: "May 2022 - August 2022",
+    year: "April 2021 - June 2021",
     role: "Application Developer Intern",
     company: "Chronodat",
     link: "https://www.chronodat.com/",
     description: `Implemented RESTful APIs in Java Spring Boot for core application features including an Application Tracking System and Time-Off Reporting System, enabling seamless data exchange and reducing manual HR processing time by around 15%.\nBuilt reusable React components for internal dashboards, streamlining state management and reducing front-end implementation time for new features by approximately 20%.
 `,
-    technologies: ["JavaScript", "Java Spring Framework", "AWS"],
+    technologies: ["JavaScript", "Java Spring Framework"],
   },
 ];
 
