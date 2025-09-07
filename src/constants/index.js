@@ -37,19 +37,28 @@ export const EXPERIENCES = [
     role: "Machine Learning Research Intern",
     company: "RooGenAI",
     link: "https://roogen.ai/",
-    description: `Cut model deployment time by 40% by implementing automated CI/CD pipelines with GitHub Actions, accelerating delivery of production-ready AI features.\nImproved model accuracy by 15% (test loss: 0.00122) via novel neural network architectures for trigonometric modeling, enhancing real-world reliability.\nReduced experimental setup time by 30% by streamlining ML workflows with Python (NumPy, Pandas) and Conda, ensuring reproducible development`,
+    description: `Devised a licensing microservice using C# and Azure Functions, scaling from prototype to production to support 10K+
+daily license validations.\nRevamped payroll and onboarding workflows with C#, Azure Functions, Power Automate, and Blob Storage, automating reconciliation of HR files, automated alerts and reducing manual effort by 15+ hours weekly across 50+ client
+organizations serving 20K+ employees.\nStandardized 20+ React/TypeScript components, eliminating UI inconsistencies and reducing feature development time by
+25%.\nMigrated applications to Azure using App Service, Functions, SQL Database, Blob Storage, Key Vault, and Service
+Bus, improving resource efficiency and reducing cloud expenses by over 20%.\nOrchestrated CI/CD pipelines in Azure DevOps using C#, Docker, and Terraform, accelerating release cycles from 2 weeks to 3 days.`,
     technologies: ["Python", "Miniconda", "Neural Networks"],
+  },
+  {
+    year: "July 2021 - July 2023",
+    role: "Software Engineer",
+    company: "Chronodat",
+    link: "https://www.chronodat.com/",
+    description: `
+`,
+    technologies: ["JavaScript", "Java Spring Framework", "AWS"],
   },
   {
     year: "May 2022 - August 2022",
     role: "Application Developer Intern",
     company: "Chronodat",
     link: "https://www.chronodat.com/",
-    description: `Contributed to the development of an enterprise-grade Human Resource Management platform serving over 50 clients.\n
-Designed and implemented RESTful APIs using Java Spring, built responsive and modular user interfaces with React and JavaScript, and participated in backend optimization and cloud infrastructure efforts.\n
-Engineered a licensing microservice that maintained 100 percent uptime while processing more than 10,000 validations daily, supporting enterprise compliance at scale.\n
-Implemented CI/CD pipelines using GitHub Actions and Terraform, reducing deployment time and improving operational efficiency.\n
-Gained hands-on experience in full-stack development, cloud-native architecture, and building scalable, secure, and maintainable systems.
+    description: `Implemented RESTful APIs in Java Spring Boot for core application features including an Application Tracking System and Time-Off Reporting System, enabling seamless data exchange and reducing manual HR processing time by around 15%.\nBuilt reusable React components for internal dashboards, streamlining state management and reducing front-end implementation time for new features by approximately 20%.
 `,
     technologies: ["JavaScript", "Java Spring Framework", "AWS"],
   },
